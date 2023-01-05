@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap');
+.logo img{
+    width: 240px;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+ul{
+ list-style: none;   
+}
+a{
+  text-decoration: none;  
+}
+input.button{
+    outline: none;
+    border: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100;
+   
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    align-items: right;
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0 22px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease-in-out;
+    color: saddlebrown;
+
+}
+nav ul li a:hover{
+    background-color: #3d2514;
+    color: beige;
+
+}
+.main{
+    width: 100%;
+    height: 760px;
+    position: relative;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-image: url(./images/Banner-bg.jpg);
+    box-sizing: border-box;
+   
+}
+.main-heading{
+    width: 500px;
+    position: absolute;
+    left: 17%;
+    top: 58%;
+    transform: translate(-17%,-50%);
+
+}
+.main-heading h1{
+    color: #3d2514;
+    font-size: 100px;
+    margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 1px 2px 1px #ffffff;
+}
+.main-heading h3{
+    
+    color: #3d2514;
+    font-size: 55px;
+    margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 1px 2px 1px #ffffff;
+}
+.main-heading p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 02;
+    padding: 3px;
+    width: 355px;
+    height: 30px;
+    border: 2px solid rgb(75, 43, 8);
+    border-style: dashed;
+}
+.bg-img{
+    
+    height: 600px;
+    position: relative;
+    background-image: url(./images/bg-img-glow.png);
+    
+}
+.main-heading img{
+   
+    position: absolute;
+    width: 650px;
+    right: -147%;
+    top: -38%;
+    
+   
+
+}
+
+.column1 {
+    
+    
+   }
+   .column2 { 
+     
+   
+   }
+   
+.fcontainer{
+    display: flex;   
+    height: 65vh;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .rectangle{
+   display: flex;
+   width: 150px;
+   height: 30px;
+   font-weight: 5px;
+   background-color: #fdc60a;
+   color: #3d2514;
+   margin: auto;
+   transition: .5s ease-in;
+   justify-content:center;
+   align-items: center;
+   text-align: center;
+   
+}
+.item2{
+    margin: 35px;
+}
+
+.item3{
+    margin: 35px;
+}
+
+.xtra h1{
+    color: #3d2514;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.xtra p{
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+   
+}
+.frow{
+    display: flex;   
+    height: 65vh;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center; 
+    padding: 140px; 
+}
+.discover{
+    height: 100px;
+}
+.columnA p{
+    display: flex;
+    width: 250px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+
+}
+.columnB p{
+    display: flex;
+    width: 250px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+
+}
+.columnC p{
+    display: flex;
+    width: 250px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+
+}
+.columnA h2{
+ font-size: 32px;
+    display: flex;
+    width: 180px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+.columnB h2{
+       font-size: 32px;
+       display: flex;
+       width: 180px;
+       padding: 5px;
+       text-align: center;
+       margin: auto;
+   }
+   .columnC h2{
+       font-size: 32px;
+       display: flex;
+       width: 180px;
+       padding: 5px;
+       text-align: center;
+       margin: auto;
+   }
+   .columnA img{
+    height: 500px;
+   }
+   .columnB img{
+    height: 500px;
+   }
+   .columnC img{
+    height: 500px;
+   }
+   .columnA a{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    font-size: 22px;
+    padding: 7px;
+    background-color: #bf2222;
+    color: #ffffff;
+    margin: auto;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    transition: .5s ease-in;
+   }
+   .columnB a{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    font-size: 22px;
+    padding: 7px;
+    background-color: #bf2222;
+    color: #ffffff;
+    margin: auto;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    transition: .5s ease-in;
+   }
+   .columnC a{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    font-size: 22px;
+    padding: 7px;
+    background-color: #bf2222;
+    color: #ffffff;
+    margin: auto;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    transition: .5s ease-in;
+   }
+   .columnA a:hover{
+    background-color: #bf2222;
+    color: #fdc60a;
+   }
+   .columnB a:hover{
+    background-color: #bf2222;
+    color: #fdc60a;
+   }
+   .columnC a:hover{
+    background-color: #bf2222;
+    color: #fdc60a;
+   }
+   
+
+   .details2{
+        margin-top: -100px;
+        position: relative;
+        display: flex;   
+        height: 60vh;
+        width: 165vh;
+        flex-direction: row;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 10px 10px 15px rgb(158, 158, 158);
+          
+   } 
+    
+   .details2 img{
+    height: 410px;
+    padding: 20px;
+    left: align;
+   }
+  .details2 h5{
+    padding: 40px;
+  }
+   .details2 h2{
+    margin-left: 40px;
+    margin-top: -60px;
+   }
+   .details2 p{
+    padding-right: 50px;
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+   
+   }
+   
+   .Section-F{
+    display: flex;
+    position: relative;   
+    height: 120vh;
+    width: 165vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center; 
+   }
+   .Container-F h5{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    color: #3d2514;
+    text-align: center;
+    font-size: 50px;
+   }
+
+  .Container-F h2{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 5px;
+   }
+   .plate {
+   width:60px;
+   }
+   .bottle {
+    width:60px;
+    }
+    .bur {
+        width:60px;
+        }
+        .Container-F{
+            margin-top: 80px;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+
+        .Rowf2{
+            display: flex;   
+            height: 65vh;
+            margin: auto;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+        .Container01{
+            display: flex;   
+            height: 65vh;
+            margin: auto;
+            justify-content: center;
+            align-items: center;    
+        }
+      .Container01{
+        display: flex;   
+        height: 65vh;
+        flex-direction: row;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+
+      }
+     
+    
+      .columnF2 input{
+        height: 10px;
+        width: 300px;
+        margin: 30px;
+        padding: 20px;
+        vertical-align: middle;
+      }      
+            
+      .columnF3 input{
+        height: 10px;
+        width: 300px;
+        margin: 30px;
+        padding: 20px;
+        vertical-align: middle;
+      }      
+        .btn{
+            display: flex;
+            width: 330px;
+            height: 40px;
+            font-size: 22px;
+            padding: 7px;
+            background-color: #bf2222;
+            color: #ffffff;
+            margin: 30px;
+            justify-content:center;
+            align-items: center;
+            text-align: center;
+            transition: .5s ease-in;
+            
+        }    
+        .btn:hover{
+            background-color: #bf2222;
+            color: #fdc60a;   
+        }
+
+
+
+
+ .logo-f img {
+    position: absolute;
+    float: left;
+    top: 120px;
+    left: 130px;
+    height: 70px;
+
+    
+  }
+ .container-ff {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .img-Fbg {
+    display: flex;
+    margin: auto;
+
+  }
+  .para{
+    position: absolute;
+    float: left;
+    top: 200px;
+    left: 130px;
+    color: #ffffff;
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .location img{
+    position: absolute;
+    float: right;
+    top: 200px;
+    right: 530px;
+    width: 30px;
+  }
+  .location h4{
+    position: absolute;
+    float: right;
+    top: 187px;
+    right: 330px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .mail img{
+    position: absolute;
+    float: right;
+    top: 250px;
+    right: 530px;
+    width: 30px;
+  }
+  .mail h4{
+    position: absolute;
+    float: right;
+    top: 235px;
+    right: 380px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+   
+  }
+ 
+  
+  .insta img{
+    position: absolute;
+    float: right;
+    top: 450px;
+    right: 280px;
+    width: 30px;
+  }
+  .fb img{
+    position: absolute;
+    float: right;
+    top: 450px;
+    right: 230px;
+    width: 30px;
+  }
+  .twitter img{
+    position: absolute;
+    float: right;
+    top: 450px;
+    right: 180px;
+    width: 30px;
+  }
+  .whatsapp img{
+    position: absolute;
+    float: right;
+    top: 450px;
+    right: 130px;
+    width: 30px;
+  }
